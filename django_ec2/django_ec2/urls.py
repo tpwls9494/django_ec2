@@ -19,9 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-<<<<<<< Updated upstream
-    path('main/', include('main.urls'))
-=======
     path('main/', include('main.urls')),
->>>>>>> Stashed changes
 ]
